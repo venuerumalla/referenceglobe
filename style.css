@@ -1,0 +1,369 @@
+.banner1-sec{
+    background-image: url(./images/banner-top1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center;. */
+    padding: 50px;
+}
+.txt-search{
+    margin-top: 290px;
+    padding-left: 40px;
+}
+
+.txt-search p{
+    color: #403c72;
+    font-weight: bold;
+    font-size: 30px;
+    
+    line-height: 32px;
+}
+.search-in{
+    display: flex;
+    padding-top: 30px;
+}
+.search-in button{
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 22px;
+    background-color: #5d57fe;
+}
+.search{
+    position: relative;
+}
+.search img{
+    width: 38px;
+    top: 4px;
+    right: 9px;
+    position: absolute;
+}
+.search input{
+    border: none;
+    outline: none;
+    box-shadow:2px 1px 15px #a5a5a5;
+    border-radius: 22px;
+    width: 300px;
+    padding: 10px;
+    color: #dddee2;
+}
+/* grid-setion  banner-1*/
+.grid-setion{
+    padding: 10px 40px 10px 0px;
+    margin-top: 276px;
+}
+.gird-card{
+text-align: center;
+}
+.title{
+    color: #565876;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.grid-des{
+    color:#bec0cd;
+}
+.read-more{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8076f6;
+}
+
+/* seond-section css */
+.seond-section{
+    background-image: url(./images/banner-top2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center;. */
+    padding: 50px;
+    padding-bottom: 0px;
+}
+.btn-go-moon{
+    padding-top: 40px;
+    text-align: center;
+}
+.btn-go-moon  button{
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 22px;
+    background-color: #5d57fe;
+}
+.btn-go-moon a{
+    text-decoration: underline;
+    color: #e19a32;
+    padding-left: 30px;
+}
+.astro{
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+.astro-padding{
+    padding: 0px 100px;
+}
+.atro-content{
+    padding-left: 80px;
+    text-align: left;
+    padding-top: 70px;
+}
+.astro-title {
+    padding-top: 30px;
+    line-height: 36px;
+    font-size: 30px;
+    color: #464063;
+}
+.astro-dec{
+    padding-top: 20px;
+    font-size: 16px;
+    color:#b7b6ba;
+
+}
+.astro-read{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 80px;
+  
+}
+.astro-read p{
+    text-decoration: underline;
+    color: #e19a32;
+
+}
+.third-section{
+    background-image: url(./images/banner-top3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center;. */
+    padding: 50px;
+    padding-top: 1px;
+}
+.astro-globe{
+    margin-top: 350px;
+}
+.footer-banner1{
+    background-image: url(./images/banner-top4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center;. */
+    padding: 50px;
+    padding-top: 1px;
+}
+
+/* cards css */
+.cards-slider{
+    margin-top: 60px;
+}
+
+/* slider */
+.slider {
+    height: 350px;
+}
+
+/* slider-cards */
+.slide-card {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* slider-arrows */
+.arrow {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.arrow i {
+    font-size: 24px;
+}
+
+/* Dots */
+.dots {
+    text-align: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.active-dot {
+    background-color: #464063;
+    box-shadow: 0 0px 15px #464063;
+}
+.fot-title{
+    font-size: 20px;
+    color: #464063;
+    font-weight: 500;
+}
+.testmon-text{
+    font-size: 18px;
+    color: #403c72;
+}
+.persona{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes the container a perfect circle */
+    overflow: hidden; /* Ensures the image fits within the circular container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.persona img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-title{
+    font-size: 16px;
+    font-weight: bold;
+    color:#464063 !important;
+    margin-bottom: 0px;
+}
+.card-desig{
+    font-size: 14px;
+    color: #464063;
+    margin-bottom: 0px;
+}
+.card-txt{
+    padding-left: 10px;
+}
+.card-description p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+.space-admin{
+    padding-top: 100px;
+}
+.space-title{
+    font-size: 18px;
+    color: #464063;
+}
+.space-desc{
+font-size: 12px;
+color: #464063;
+
+}
+.space-input{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.space-input input{
+    border: none;
+    outline: none;
+    box-shadow:2px 1px 15px #a5a5a5;
+    border-radius: 22px;
+    width: 250px;
+    padding: 10px;
+    color: #dddee2;
+}
+.space-input button{
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 22px;
+    background-color: #5d57fe;
+}
+.footer-last-sec{
+    background-image: url(./images/banner-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center;. */
+    padding: 50px;
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+.questions{
+    margin-top: 250px;
+}
+.c-title{
+color: #464063;
+font-weight: bold;
+}
+.content-starts ul{
+ list-style: none;
+ padding: 0px;
+ color: #464063;
+}
+.content-starts ul li{
+    padding-bottom: 10px;
+}
+.content-starts ul li a{
+    text-decoration: none;
+    color: #464063;
+}
+.footer-logos{
+    margin-top: 30px;
+}
+.footer-logos ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 0px;
+}
+.footer-logos ul li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+/* responsive css */
+@media (min-width: 601px) and (max-width: 980px) {
+    .gird-card img{
+        width: 120px !important;
+
+    }
+    .third-section, .seond-section ,.banner1-sec{
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .astro-padding {
+        padding: 0px 30px;
+    }
+    .questions{
+        margin-top: 100px;
+    }
+    .d-hide{
+        display: none;
+    }
+    .footer-logos ul{
+        justify-content: end;
+    }
+}
+
+@media (max-width: 600px) {
+    .gird-card img{
+        width: 100px !important;
+
+    }
+    .astro-padding {
+        padding: 0px 30px;
+    }
+    .third-section, .seond-section {
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .questions{
+        margin-top: 80px;
+    }
+    .d-hide{
+        display: none;
+    }
+    .footer-logos ul{
+        justify-content: center;
+    }
+}
